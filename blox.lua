@@ -6055,9 +6055,9 @@ local Elite_Hunter_Status = Weapon:Label("Status")
 		while wait() do
 			pcall(function()
 				if game:GetService("ReplicatedStorage"):FindFirstChild("Diablo [Lv. 1750]") or game:GetService("ReplicatedStorage"):FindFirstChild("Deandre [Lv. 1750]") or game:GetService("ReplicatedStorage"):FindFirstChild("Urban [Lv. 1750]") or game:GetService("Workspace").Enemies:FindFirstChild("Diablo [Lv. 1750]") or game:GetService("Workspace").Enemies:FindFirstChild("Deandre [Lv. 1750]") or game:GetService("Workspace").Enemies:FindFirstChild("Urban [Lv. 1750]") then
-					Elite_Hunter_Status:Set("Status : Elite Spawn!")	
+					Elite_Hunter_Status:Set("Status : Elite is Spawned!")	
 				else
-					Elite_Hunter_Status:Set("Status : Elite Not Spawn")	
+					Elite_Hunter_Status:Set("Status : Elite is not Spawned")	
 				end
 			end)
 		end
