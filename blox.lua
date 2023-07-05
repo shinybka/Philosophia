@@ -3799,7 +3799,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("FreeFrai HUB ","")
+local Library = Update:Window("BuynaaZS HUB ","")
 ------------------------------------------
 
 spawn(function()
